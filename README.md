@@ -35,12 +35,12 @@ Summary of findings with insights on how to structure prompts for optimal result
 # OUTPUT
 
 # Q&A Pattern with Test Scenarios
-Q1. What is the objective of comparing prompting patterns in maintenance report generation?
+# Q1. What is the objective of comparing prompting patterns in maintenance report generation?
 
 Answer:
 The objective is to determine which prompting technique (straightforward, tabular, missing word, preceding question, etc.) produces the most accurate, structured, and context-aware maintenance reports for industrial equipment, especially when the input varies from vague descriptions to precisely defined prompts.
 
-Q2. What prompting techniques are being compared?
+# Q2. What prompting techniques are being compared?
 
 Answer:
 
@@ -52,7 +52,7 @@ Missing Word Prompting – Filling blanks to guide structured output.
 
 Preceding Question Prompting – Asking a leading/context-setting question before the main query.
 
-Q3. Test Scenario 1 – Broad / Unstructured Prompt
+# Q3. Test Scenario 1 – Broad / Unstructured Prompt
 
 Prompt:
 “Generate a maintenance report for a machine that had issues yesterday.”
@@ -67,7 +67,7 @@ Preceding Question Prompting Response: Adds clarity by first asking: “What typ
 
 Analysis: Preceding Question Prompting performs best for vague inputs.
 
-Q4. Test Scenario 2 – Basic / Refined Prompt
+# Q4. Test Scenario 2 – Basic / Refined Prompt
 
 Prompt:
 “Generate a maintenance report for Pump #12: Fault – Overheating; Maintenance done – Replaced coolant valve; Status – Running normally.”
@@ -82,7 +82,7 @@ Preceding Question Prompting Response: Less useful since input is already refine
 
 Analysis: Tabular and Missing Word Prompting perform best for structured inputs.
 
-Q5. Which prompting pattern ensures better accuracy in automated report generation?
+# Q5. Which prompting pattern ensures better accuracy in automated report generation?
 
 Answer:
 
@@ -90,7 +90,7 @@ Structured Prompts (Tabular + Missing Word) → Higher accuracy, as details are 
 
 Unstructured Prompts (Straightforward + Preceding Question) → Accuracy depends on how much clarification the model seeks.
 
-Q6. Which prompting pattern ensures better depth and completeness?
+# Q6. Which prompting pattern ensures better depth and completeness?
 
 Answer:
 
@@ -98,7 +98,7 @@ Preceding Question Prompting → Encourages deeper exploration by seeking missin
 
 Straightforward Prompting → May remain shallow if the input is vague.
 
-Q7. What is the overall comparative conclusion?
+# Q7. What is the overall comparative conclusion?
 
 Answer:
 
